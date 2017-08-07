@@ -276,7 +276,7 @@ Enter 5 to go back to search results, 6 to go back to search menu\n>>>''')
         if field == '5':
             return
         if field == '6':
-            return entry_search()
+            return task_search()
     print('The {} of the current entry is {}'.format(
           field_dict[field], task_dict[field_dict[field]]))
     new_info = None
